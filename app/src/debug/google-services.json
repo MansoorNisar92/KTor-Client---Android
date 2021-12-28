@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "693290105894",
+    "project_id": "testapplication-deb72",
+    "storage_bucket": "testapplication-deb72.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693290105894:android:2050048320e789f5aa3ae7",
+        "android_client_info": {
+          "package_name": "com.ktor.application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "693290105894-d7hi8gjmd3rk5upmgcc330ka9j16p9nm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiJDuTFYbgJ9dpoPi3wdczpVZyTVgclnQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "693290105894-d7hi8gjmd3rk5upmgcc330ka9j16p9nm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,4 +1,4 @@
-package com.ktor.application.data.network
+package com.ktor.application.network
 
 
 object Routes {

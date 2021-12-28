@@ -4,7 +4,7 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.ktor.application.Event
-import com.ktor.application.data.network.client.ServicesImpl
+import com.ktor.application.network.client.ServicesImpl
 import com.ktor.application.extensions.inverse
 import com.ktor.application.model.response.PostResponse
 import dagger.hilt.android.lifecycle.HiltViewModel

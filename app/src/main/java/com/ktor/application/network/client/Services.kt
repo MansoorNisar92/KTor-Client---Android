@@ -1,4 +1,4 @@
-package com.ktor.application.data.network.client
+package com.ktor.application.network.client
 
 import com.ktor.application.model.request.PostRequest
 import com.ktor.application.model.response.PostResponse

@@ -1,7 +1,7 @@
 package com.ktor.application.di
 
-import com.ktor.application.data.network.client.Services
-import com.ktor.application.data.network.client.ServicesImpl
+import com.ktor.application.network.client.Services
+import com.ktor.application.network.client.ServicesImpl
 import dagger.Binds
 import dagger.Module
 import dagger.Provides

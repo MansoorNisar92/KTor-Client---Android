@@ -1,7 +1,7 @@
 package com.ktor.application.di
 
-import com.ktor.application.network.client.Services
-import com.ktor.application.network.client.ServicesImpl
+import com.ktor.application.client.Services
+import com.ktor.application.client.ServicesImpl
 import dagger.Binds
 import dagger.Module
 import dagger.Provides
@@ -12,6 +12,7 @@ import io.ktor.client.engine.android.*
 import io.ktor.client.features.json.*
 import io.ktor.client.features.json.serializer.*
 import io.ktor.client.features.logging.*
+import javax.inject.Named
 import javax.inject.Singleton
 
 @Module
@@ -34,6 +35,7 @@ object AppModule {
 
     @Provides
     @Singleton
+    @Named("Services")
     fun provideKTorService(httpClient: HttpClient): Services {
         return ServicesImpl(httpClient)
     }

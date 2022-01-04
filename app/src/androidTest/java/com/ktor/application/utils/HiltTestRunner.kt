@@ -1,4 +1,4 @@
-package com.example.testapplication.utils
+package com.ktor.application.utils
 
 import android.app.Application
 import android.content.Context

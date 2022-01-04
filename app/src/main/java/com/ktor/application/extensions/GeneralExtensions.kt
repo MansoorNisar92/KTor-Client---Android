@@ -11,7 +11,9 @@ import android.widget.EditText
 import androidx.appcompat.widget.AppCompatEditText
 import androidx.fragment.app.Fragment
 import com.google.android.material.snackbar.Snackbar
+import com.google.gson.Gson
 import com.ktor.application.R
+import java.io.InputStreamReader
 
 const val EMPTY_STRING = ""
 
@@ -79,3 +81,11 @@ fun Context.navigateToAppSettings() {
         data = Uri.fromParts("package", packageName, null)
     })
 }
+
+fun String.getJsonContent(): String {
+    return InputStreamReader(this.javaClass.classLoader!!.getResourceAsStream(this)).use { it.readText() }
+}
+
+fun <T> convertObjectToJsonString(model: T): String = Gson().toJson(model)
+
+inline fun <reified T> convertJsonToModel(string: String): T? = Gson().fromJson(string, T::class.java)

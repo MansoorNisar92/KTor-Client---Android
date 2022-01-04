@@ -19,6 +19,7 @@ object Dependencies {
     const val extJUnit = "androidx.test.ext:junit:${Versions.extJUnit}"
     const val espressoCore = "androidx.test.espresso:espresso-core:${Versions.espressoCore}"
     const val mockito = "org.mockito:mockito-core:${Versions.mockito}"
+    const val mockitoAndroid = "org.mockito:mockito-android:${Versions.mockito}"
     const val navigationFragmentKTX = "androidx.navigation:navigation-fragment-ktx:${Versions.navigation}"
     const val navigationUiKTX = "androidx.navigation:navigation-ui-ktx:${Versions.navigation}"
     const val navigationStackLibrary = "com.ncapdevi:frag-nav:${Versions.ncapNavigation}"

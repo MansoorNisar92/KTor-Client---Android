@@ -1,4 +1,4 @@
-package com.example.testapplication
+package com.ktor.application
 
 import org.junit.Test
 

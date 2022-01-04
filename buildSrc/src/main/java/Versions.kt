@@ -13,10 +13,10 @@ object Versions {
     const val jUnit = "4.13.2"
     const val extJUnit = "1.1.3"
     const val espressoCore = "3.4.0"
-    const val mockito = "1.9.3"
+    const val mockito = "4.1.0"
     const val hilt = "2.38.1"
     const val coreTesting = "2.1.0"
-    const val truthVersion = "1.1.2"
+    const val truthVersion = "1.1.3"
     const val navigation = "2.3.5"
     const val ncapNavigation = "3.2.0"
 

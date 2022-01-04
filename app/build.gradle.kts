@@ -78,9 +78,18 @@ dependencies {
     kapt(Dependencies.hiltKapt)
     //hilt testing
     androidTestImplementation(Dependencies.hiltTest)
-    androidTestImplementation(Dependencies.coreTesting)
+    testImplementation(Dependencies.coreTesting)
     androidTestImplementation(Dependencies.truth)
+    testImplementation(Dependencies.truth)
+    /*androidTestImplementation(Dependencies.mockito)
+    androidTestImplementation(Dependencies.mockitoAndroid)*/
     kaptAndroidTest("com.google.dagger:hilt-android-compiler:2.30.1-alpha")
+    testImplementation(Dependencies.hiltTest)
+    androidTestImplementation("com.squareup.okhttp3:mockwebserver:4.9.3")
+    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.4.0")
+    testImplementation ("org.robolectric:robolectric:4.5.1")
+    //UI test
+    androidTestImplementation ("org.robolectric:robolectric:4.5.1")
 
     implementation(Dependencies.fragmentKtx)
     implementation(Dependencies.activityKtx)
@@ -100,4 +109,7 @@ dependencies {
     implementation(Dependencies.kTorLogging)
    // implementation(Dependencies.logBackClassic)
     implementation(Dependencies.kotlinxSerialization)
+
+    //implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation("com.google.code.gson:gson:2.8.8")
 }
